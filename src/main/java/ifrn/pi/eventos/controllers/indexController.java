@@ -10,7 +10,7 @@ public class indexController {
 	@RequestMapping("/")
 	public String index() {
 		System.out.println("Chamou o metódo index");
-		return "home";
+		return "home"; 
 	}
 
 }
